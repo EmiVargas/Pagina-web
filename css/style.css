@@ -32,7 +32,7 @@ background-color: #2d3a41;
 }
 
 .background{
-    background: rgba(0, 0, 0, 0.5) url("/img/ba1.jpg") no-repeat center center;
+    background: rgba(0, 0, 0, 0.5) url("../img/ba1.jpg") no-repeat center center;
     height: 93vh;
     background-size: cover;
     background-blend-mode: darken;
