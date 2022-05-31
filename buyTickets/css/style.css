@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+html {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-nav {
+    background-color: #2f3d44;
+}
+.top-a{
+    height:4rem;
+}
+
+.top-a:hover {
+    color: white;
+    background-color: #444c50;
+}
+
+.top-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.green-btn {
+    background-color: rgb(39, 202, 39);
+    color: white;
+    width: 19.25rem;
+    min-height: 2.75rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.green-btn:hover{
+    background-color: rgb(27, 177, 27);
+}
+
+.blue{
+background-color: #81d4fa;
+color: #002171;
+}
+
+.discounts{
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap:0.5rem 1px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    width: 25rem;
+}
+
+main{
+    margin-bottom: 3rem;
+}
+
+
+.foot-nav{
+    background-color:rgb(35, 70, 94) ;
+}
+
+footer ul{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+}
+
+footer li{
+ margin-right: 8rem;
+}
+
+.foot-nav a{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.foot-nav a:hover{
+    background-color:rgb(30, 59, 78) ;
+}
