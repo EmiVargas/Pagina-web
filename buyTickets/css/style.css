@@ -66,6 +66,7 @@ main{
 
 .foot-nav{
     background-color:rgb(35, 70, 94) ;
+    display:flex;
 }
 
 footer ul{
